@@ -1,0 +1,43 @@
+
+<html>
+  
+   <head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>(Max BB Speed-Avg BB Speed) Versus Batting Average</title>
+    <link rel='shortcut icon' href='../uwaterloo.png' type='image/x-icon'/ >
+    </head>
+    <body>
+            
+        <script type="text/javascript" src="max_bb_ahs_ba.js"></script>
+            
+        <script type="text/javascript" src="max_bb_ahs_ba_fig.js"></script>
+        
+        <div id="b1a178b5-82cc-4d97-9dd5-67dbafeeb9da" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('b1a178b5-82cc-4d97-9dd5-67dbafeeb9da')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                });
+                
+           }());
+        </script>
+    </body>
+</html>
