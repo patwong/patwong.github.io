@@ -11,9 +11,15 @@ div {text-align: center; font-size: 1000%;}
 <p>
 MLB Batted Ball Stat Visualizations (graphs!!!!!!!)
 </p><menu>
-<li><a href="bb/brlpa_ahs.html">Barrels/PA versus Average Hitting Speed (Plotly)</a></li>
+<li><a href="bb/brl_pa_vs_avg_hit_speed.html">Barrels/PA versus Average Hitting Speed</a></li>
 <li><a href="bb/mpld3_brlpa_ahs.html">Barrels/PA versus Average Hitting Speed (mpld3 version)</a></li>
-<li><a href="bb/max_bb_ahs_ba.html">(Max BB Speed-Avg BB Speed) Versus Batting Average (Plotly)</a></li>
+<li><a href="bb/max_bb_ahs_ba.html">(Max BB Speed-Avg BB Speed) Versus Batting Average</a></li>
+<li><a href="bb/avg_hit_speed_hist.html">Average Hit Speed Histogram (with average wRC+ per bin)</a></li>
+<li><a href="bb/fbld_vs_brl_pa.html">Average FB/LD Exit Velocity versus Barrels/PA</a></li>
+<li><a href="bb/brl_pa_vs_wRC+.html">Barrels/PA versus wRC+</a></li>
+<li><a href="bb/iso_str_vs_avg_hit_speed.html">Isolated Power versus Average Hit Speed</a></li>
+<li><a href="bb/iso_str_vs_fbld.html">Isolated Power versus Average FB/LD Exit Velocity</a></li>
+
 </menu>
 <p>Some thoughts on Barrels/PA versus Average Hitting Speed:</p>
 <menu><li>Baseball Savant's/Tom Tango's Barreled Ball "Barrels" stat (full definition found  <a href="http://m.mlb.com/glossary/statcast/barreled-ball">here</a>) accounts for a batted ball that falls under certain criteria, whose value is determined by a weighted combination of its exit velocity and exit angle. Commentor scotman144 in this <a href="http://www.fangraphs.com/blogs/where-kevin-pillar-tops-joey-votto/">article</a> points out this metric undervalues line drive machines who don't hit the ball particularly hard (i.e. Adam Eaton, Dustin Pedroia). Since "barrels" is a stat derived from exit velocity, there is some positive correlation (0.67) between those who can hit the ball well and those who hit the ball hard. Overperformers of this stat, i.e. players who've put a bunch well-hit balls in play but don't have elite exit velocity include Byung-Ho Park and Tyler Austin. Underperformers include Aaron Judge and Keon Broxton, who obliterate the ball whenever they hit it but are otherwise flawed (63 and 109 wRC+, respectively). Similarly, another overperformer would be Khris Davis, obliterates the ball when he hits it but strikes out a lot + struggles making contact (92.7 MPH, 27.2 K%, 143rd in FG's Contact %)  </li>
@@ -25,6 +31,7 @@ MLB Batted Ball Stat Visualizations (graphs!!!!!!!)
 	<li>Some interesting players of note: Giancarlo Stanton, Nomar Mazara, and Jonathan Schoop have a differential of 28.8, 29.3, and 33.8(!!!) MPH</li>
 	<li>Pitchers/catchers in the bottom left quadrant of the graph (obvious)</li>
 </menu>
+<i>all graphs are done in plotly unless specified</i>
 <hr>
 
 <span>&copy; Patrick Wong 2017</span>
