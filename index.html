@@ -1,63 +1,403 @@
-<html>
-	<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>Patrick's Webpage?????</title>
-	<link rel='shortcut icon' href='uwaterloo.png' type='image/x-icon'/ >
-	</head>
-	<body>
-	
-	<style type="text/css">
-		body {color: white; background: #7c8c9c;}
-		div {text-align: center; font-size: 1000%;}
-				
-		<!--- 
-		body {background: #7c8c9c;margin:1em auto;max-width:40 em;padding:0.62em;font:1.2em/1.62em sans-serif;}
-<style>body{margin:1em auto;max-width:40em;padding:0 .62em;font:1.2em/1.62em sans-serif;}h1,h2,h3{line-height:1.2em;}@media print{body{max-width:none}}
-		--->
-		div {text-align: center; font-size: 1000%;}
-		h1,h2,h3{line-height:0.6}
-		
-	</style>
-	
-	</p>
-	<h1>Patrick Wong</h1>
-	Computer Science Student at the University of Waterloo
-	<address>
-	e-mail: <a href="mailto:patrick.wong@uwaterloo.ca">patrick.wong@uwaterloo.ca</a><br>
-	</address>
-	<p>
-	</p><hr>
-	<h3>About Me</h3>
-	<p><menu>
-	I'm a recent graduate (Fall 2016) of the University of Waterloo, with majors in Computer Science and Computational Mathematics, and a minor in Combinatorics and Optimization.
-	
-	</menu>
-	</p>
-	<hr>
-	<p>
-	<h3>My Links</h3>
-	</p><menu>
-	<li><a href="https://www.linkedin.com/in/patricknwong/">LinkedIn</a></li>
-	<li><a href="https://github.com/patwong">GitHub</a></li>
-	<li><a href="courses.html">Courses I've taken @ UW</a></li>
-	<li><a href="old.html">O.G. website</a></li>
-	</menu><hr>
-	<p>
-	<h3>Projects</h3>
-	</p>
-	<menu>
-	<li>
-		<a href="bb_project_page.html" title="MLB Batted Ball Stat Visualizations">MLB Batted Ball Stat Visualizations</a>
-		<p>Visualizing MLB hitters' batted ball statistical over/underperformers with Python. Using data from FanGraphs and MLB.com's Baseball Savant. Source code 
-			  <a href="https://github.com/patwong/battedball3">here</a> </p>
-	</li>
-	<li>
-		<a href="https://github.com/patwong/notedump">notedump</a>
-		<p>Windows desktop application with a tabbed interface, where every tab represents a common category for random notes. Aims to reduce the number of text files littering the desktop by containing them in one application. Written in C#/Visual Studio 2015.</p>
-	</li>
+<!DOCTYPE html>
+<html lang="en">
 
-	</menu>
-	<hr>
-	<span>&copy; Patrick Wong 2017</span>
-	</body>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Patrick Wong's Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Patrick Wong</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/uwaterloo.png" alt="">
+                    <div class="intro-text">
+                        <!-- <h1 class="name">Start Bootstrap</h1> -->
+                        <hr class="star-light">
+                        <span class="skills">Software - Mathematics - Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I'm a recent graduate (Fall 2016) of the University of Waterloo, with majors in Computer Science and Computational Mathematics, and a minor in Combinatorics and Optimization. </p>
+					<p class="page-scroll">
+						My resumes and projects can be found 
+						<a href="#projects">here</a> and
+						<a href="#" target="_blank">here</a>.
+					</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>I enjoy learning math and diving into coding projects, especially when I get to combine both!</p>
+					<p>I'm also an avid sports fan :)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+    <!-- Project Grid Section -->
+    <section  class="success" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 project-item">
+                    <a href="#p1" class="project-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/rails-thumb.png" class="img-responsive" alt="rails">
+                    </a>
+					<h4>Rails Tutorial app</h4>
+                </div>
+                <div class="col-sm-4 project-item">
+                    <a href="#p2" class="project-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/mlb-thumb.png" class="img-responsive" alt="mlb">
+                    </a>
+					<h4>MLB Visualization Module</h4>
+                </div>
+                <div class="col-sm-4 project-item">
+                    <a href="#p3" class="project-link " data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/nd-thumb.png" class="img-responsive" alt="notedump">
+                    </a>
+					<h4>notedump</h4>
+                </div>
+                <div class="col-sm-4 project-item">
+                    <a href="#p4" class="project-link " data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/os161-thumb.png" class="img-responsive" alt="os161">
+                    </a>
+					<h4>CS350 OS/161</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Let's Get In Touch!</h2>
+					<hr class="star-primary">
+					<p> Feel free to send me an email and message me on the internet!</p>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-xs-3 text-center">
+					<p><a href="mailto:patrick.wong@uwaterloo.ca" class="btn-social btn-outline" onclick="this.blur();">
+					<span class="sr-only">Email</span>
+					<i class="fa fa-envelope-o fa-3x sr-contact"></i></a>
+					<h4>Email</h4></p>
+                </div>
+				<div class="col-xs-3 text-center">
+					<a href="https://github.com/patwong" class="btn-social btn-outline" target="_blank" onclick="this.blur();">
+					<span class="sr-only">GitHub</span>
+					<i class="fa fa-3x fa-github"></i></a>
+					<h4>GitHub</h4>
+                </div>
+				<div class="col-xs-3 text-center">
+					<a href="https://www.linkedin.com/in/patricknwong/" class="btn-social btn-outline" onclick="this.blur();" target="_blank">
+					<span class="sr-only">LinkedIn</span>
+					<i class="fa fa-3x fa-linkedin"></i></a>
+					<h4>LinkedIn</h4>
+                </div>
+				<div class="col-xs-3 text-center">
+					<a href="https://angel.co/patrick-n-wong" class="btn-social btn-outline" onclick="this.blur();" target="_blank">
+					<span class="sr-only">AngelList</span>
+					<i class="fa fa-3x fa-angellist"></i></a>
+					<h4>AngelList</h4>
+                </div>
+			</div>
+
+		</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Patrick Wong 2017. OG webpage can be found <a href="og.html">here</>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Project Modals -->
+    <div class="project-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Rails Tutorial App</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/rails.png" class="img-responsive img-centered" alt="">
+                            <p>
+								Mini-microblog service with authenticated user signup and login. Written in Ruby on Rails, with PostgreSQL database, and deployed on Heroku. Production version found 
+								<a href="https://rortutorialapp.herokuapp.com/">here</a>.
+							</p>
+                            <ul class="list-inline item-details">
+                                <li>Source Code:
+                                    <strong>
+										<a href="https://github.com/patwong/rails_sample_app">GitHub</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>
+										<a href="https://rortutorialapp.herokuapp.com/">February 2017-Present</a>
+                                    </strong>
+                                </li>
+                                <li>Type:
+                                    <strong>Web Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-modal modal fade" id="p2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>MLB Batted Ball Visualizations</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/mlb.png" class="img-responsive img-centered" alt="">
+                            <p>Visualization of MLB hitters' 2016 stats with interactive scatterplots and histograms. Python module designed to produce graphs, using data sourced from various formats. Project page can be found <a href="mlb_page.html">here</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Source Code:
+                                    <strong>
+										<a href="https://github.com/patwong/battedball3">GitHub</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>
+										<a href="mlb_page.html">December 2016-February 2017</a>
+                                    </strong>
+                                </li>
+                                <li>Type:
+                                    <strong>Research</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-modal modal fade" id="p3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>notedump</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/notedump.png" class="img-responsive img-centered" alt="">
+                            <p>Windows desktop application displaying several text files through a tabbed interface, to centralize the location of commonly-used text files in one application. written in C#/Visual Studio</p>
+                            <ul class="list-inline item-details">
+                                <li>Source Code:
+                                    <strong>
+										<a href="https://github.com/patwong/notedump">GitHub</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>November 2016-December 2016</strong>
+                                </li>
+                                <li>Type:
+                                    <strong>Microsoft Windows application</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-modal modal fade" id="p4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CS 350 OS/161</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/os161.png" class="img-responsive img-centered" alt="">
+                            <p>Implemented synchronization primitives, system calls, and a virtual memory system for the OS/161 kernel. Written in C</p>
+                            <ul class="list-inline item-details">
+                                <li>Source Code:
+                                    <strong>
+										<a href="https://github.com/patwong/operating-systems">GitHub</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014-August 2014</strong>
+                                </li>
+                                <li>Type:
+                                    <strong>Academic project</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
 </html>
